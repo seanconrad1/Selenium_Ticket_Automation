@@ -43,7 +43,7 @@ def crossCharge(uname, pwd, employee_name, remedyTicket, dictionary):
             print 'No "Create New Element" visible'
 
 
-    firefox.get('http://oma2-eusws-001:85/DirectEntry/TransactionEntryUpdate.aspx')
+    firefox.get('website')
 
     time.sleep(2)
 
